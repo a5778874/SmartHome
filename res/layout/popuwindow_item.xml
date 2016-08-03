@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_bgselector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="设置"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_bgselector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="关于"
+        android:textSize="18sp" />
+
+</LinearLayout>
